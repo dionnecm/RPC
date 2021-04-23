@@ -2,7 +2,7 @@
 	
 1.	Instalar o Wamp Server a) http://www.wampserver.com/en/ 
 2.	Iniciar o Wamp Server e testar o seu funcionamento a) http://localhost/phpmyadmin/ 
-3.	Baixar o código na plataforma SIGAA denominado JSON-RPC 
+3.	Baixar o código na plataforma SIGAA denominado JSON-RPC ou git clone https://github.com/dionnecm/RPC
 4.	Descompactar o conteúdo do arquivo jsonrpc.zip dentro da pasta WWW onde o Wamp Server foi instalado. 
 5.	Verificar o código dos arquivos client.php e server.php 
 
@@ -40,14 +40,14 @@
 ** Remote Procedure Call – Linux (Ubuntu 16.04)
 	
 1.	Instalar o Apache 2:
-a.	sudo apt-get install apache2 
+	a.	sudo apt-get install apache2 
 2.	Instalar o PHP:
-a.	sudo apt-get install php 
+	a.	sudo apt-get install php 
 3.	Instalar biblioteca:
-a.	sudo apt-get install libapache2-mod-php 
-4.	Baixar o código na plataforma SIGAA denominado JSON-RPC 
+	a.	sudo apt-get install libapache2-mod-php 
+4.	Baixar o código na plataforma SIGAA denominado JSON-RPC ou git clone https://github.com/dionnecm/RPC 
 5.	Executar o gerenciador de arquivos no modo root para extrair os arquivos na pasta \var\www\html
-a.	sudo nautilus 
+	a.	sudo nautilus 
 6.	Mover o arquivo jsonrpc.zip para pasta \var\www\html 
 7.	Verificar o código dos arquivos client.php e server.php 
 
@@ -77,5 +77,5 @@ echo $server->execute();
 
 8.	No browser, colocar a seguinte linha de comando: http://localhost/jsonrpc/vendor/client.php 
 9.	Alterar o arquivo client.php para executar o procedimento random.
-a.	sudo gedit cliente.php 
+	a.	sudo gedit cliente.php 
 10.	Alterar o arquivo client.php para que ele possa executar o server.php de forma local. 
